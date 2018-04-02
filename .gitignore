@@ -1,0 +1,8 @@
+*.txt
+*.csv
+*.rds
+*.log
+*.sas7bdat
+archive/
+ac_pattern3/
+others/
