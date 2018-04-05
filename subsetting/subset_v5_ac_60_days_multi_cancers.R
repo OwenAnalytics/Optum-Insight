@@ -20,10 +20,10 @@ library(tidyr)
 library(xlsx)
 
 
-setwd("C:/Users/mengbing/Box Sync/Optum Insight - Data Management/subsetting")
+setwd("C:/Users/Mengbing Li/Box Sync/Optum Insight - Data Management/subsetting")
 
 ### READ IN COMPLETED SUBSET DATA SET
-patinfo <- readRDS("../data/subset_v5_ac_active_nodup.sas7bdat")
+patinfo <- read.sas7bdat("../data/subset_v5_ac_active_nodup.sas7bdat")
 
 
 ### 1. EXCLUDE PATIENTS WHO DO NOT GET AN OUTPATIENT AC WITHIN 60 DAYS --------
